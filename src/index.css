@@ -8,24 +8,34 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-evenly;
   list-style: none;
   margin: 0 20px;
   padding: 0 50px;
+  margin: 0 auto;
   overflow: hidden;
-  background-color: pink;
+  background-color: white;
 }
 
 .navbar-links a {
-  text-align: center;
-  padding: 20px 100px;
-  width: 320%;
-  text-decoration: none;
-  display: inline-flex;
-  justify-content: space-evenly;
+  padding: 15px 100px;
+  width: 200px;
 }
 
+/* text-align: center;
+justify-content: space-evenly;
+display: inline-flex; */
+
 .navbar-links {
-  float: left;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  margin: 0 auto;
+
 }
 
 .Projects {

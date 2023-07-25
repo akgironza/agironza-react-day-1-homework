@@ -1,9 +1,9 @@
 // the component function
-const ComponentName = (props) => {
+const Projects = (props) => {
 
     //The Components Returned JSX
-    return <div className="ComponentName"> This is ComponentName</div>
+    return <div className="Projects"> This is Projects</div>
 }
 
 // export the component
-export default ComponentName
+export default Projects;

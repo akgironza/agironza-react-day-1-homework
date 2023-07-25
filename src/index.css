@@ -15,7 +15,8 @@
   padding: 0 50px;
   margin: 0 auto;
   overflow: hidden;
-  background-color: white;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
 }
 
 .navbar-links a {
@@ -46,7 +47,7 @@ display: inline-flex; */
 }
 
 .projectCard {
-  box-shadow: 0 0 20px grey;
+  box-shadow: 0 0 10px grey;
   width: 80%;
   max-width: 600px;
   display: flex;
@@ -94,4 +95,17 @@ display: inline-flex; */
   width: 4em;
   background: hotpink;
   margin: 0.5em auto;
+}
+
+.footerMenu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0 20px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.actualMenuLinks {
+
 }
